@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0;
+        } 
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.247);
+        }
+        nav > a {
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            margin: 10px;
+            border-radius: 0 10px 0 10px;
+        }
+        section {
+            padding: 10px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 10px;
+        }
+        aside {
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título do site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Conteúdo 1</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aliquam laudantium sint amet autem iste illo accusantium voluptate rem fugit quas quis eaque, asperiores magnam nostrum eius harum cum. Nemo?</p>
+                <aside>Texto por Bruno Rezende</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Bruno Rezende</p>
+    </footer>
+</body>
+</html>
